@@ -14,7 +14,6 @@ export const pgClient = (): Pool => {
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
     });
-    // client = new Pool("postgres://wudujmma:1pxqgSsp8kD4UgKP5RzxDOvmW4XC7Drx@satao.db.elephantsql.com/wudujmma")
   }
   return client;
 };
